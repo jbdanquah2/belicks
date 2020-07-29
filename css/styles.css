@@ -327,12 +327,12 @@ footer {
     width: 100%;
     height: 35px;
     padding: 6px 12px;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.5;
     color: #eee;
-    background-color: #36333d;
+    background-color: #fff;
     background-image: none;
-    border: 1px solid #36333d;
+    border: 1px solid #032f48;
     border-radius: 4px;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
@@ -340,7 +340,7 @@ footer {
 
 .form-control:focus {
     color: #222;
-    background-color: #ccc;
+    background-color: #aaa;
     box-shadow: none;
 }
 
@@ -544,3 +544,13 @@ img::-moz-selection {
     overflow: hidden;
 }
 
+.modal-content {
+    background-color: #032f48;
+   
+}
+
+aside {
+    background-color: #032f48!important;
+    clip-path: polygon(0 0, 97% 3%, 100% 100%, 0% 100%);
+ 
+}
