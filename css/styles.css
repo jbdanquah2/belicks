@@ -552,5 +552,16 @@ img::-moz-selection {
 aside {
     background-color: #032f48!important;
     clip-path: polygon(0 0, 97% 3%, 100% 100%, 0% 100%);
- 
+}
+
+#owner {
+    border: 1px solid black;
+    border-radius: 50%;
+    float: left;
+    margin-right: 5%;
+}
+
+#message {
+    float: right;
+    display: inline;
 }
