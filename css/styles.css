@@ -280,7 +280,15 @@ footer {
     background-color:#2f5579;
 }
 
+.navbar-nav {
+    margin-top: 7%;
+}
+
 @media(min-width:768px) {
+    .navbar-nav {
+        margin-top: 2%;
+    }
+    
     .icon-lg {
         font-size: 80px;
     }
@@ -536,7 +544,7 @@ img::-moz-selection {
     clip-path: polygon(61% 4%, 100% 0%, 98% 95%, 0 100%, 0 19%);
 /*    background-image: url('../assets/svg6.svg');*/
     background-position:top;
-   background-color: #032f48;
+   background-color: #0f4364;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -565,3 +573,4 @@ aside {
     float: right;
     display: inline;
 }
+
