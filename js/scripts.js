@@ -1,10 +1,4 @@
-const downloadfile = document.getElementById("downloadfile");
-downloadfile.addEventListener("click", checkDownload );
-                                                           
-function checkDownload() {
-    alertify.alert("<span class='bg-dark'>Belicks</span> | <span class='bg-warning'>Admissions</span> ","Admission forms downloaded... <br/> <progress id='/assets/pdf/Belicks_Admission_Forms.pdf' value='99' max='100'> 99% </progress> <br/> please check your download folder")   
-}
-
+ 
 (function($) {
     "use strict";
 
