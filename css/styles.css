@@ -562,6 +562,10 @@ aside {
     clip-path: polygon(0 0, 97% 3%, 100% 100%, 0% 100%);
 }
 
+marquee {
+    margin-top: 2%;
+}
+
 #owner {
     border: 1px solid black;
     border-radius: 50%;

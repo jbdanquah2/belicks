@@ -52,7 +52,9 @@
                 </ul>
             </div>
         </div>
+        
     </nav>
+    
     <header id="first">
         <div class="header-content">
             <div class="inner">
@@ -63,6 +65,8 @@
                 <hr>
 <!--                <a href="#video-background" id="toggleVideo" data-toggle="collapse" class="btn btn-primary btn-xl">Toggle Video</a> &nbsp; -->
                 <a href="tel:+23324-505-2539" class="btn btn-primary btn-xl page-scroll"><i class="icon-sm ion-android-call"></i> Call Us</a>
+                <marquee class="bg-info text-info" behavior="scroll" height="25px" hspace="60px" scrollamount ="3" >Dear parents, please note that school resumes come September 8th, 2020. 
+                Please do well to ensure our children are prepared for that. Thank you for your cooperation!</marquee>
             </div>
         </div>
 <!--
@@ -280,28 +284,30 @@
                     <p>We love feedback. Fill out the form below and we'll get back to you as soon as possible.</p>
                 </div>
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <form class="contact-form row">
-                        <div class="col-md-4">
-                            <label></label>
-                            <input type="text" class="form-control" placeholder="Name">
-                        </div>
-                        <div class="col-md-4">
-                            <label></label>
-                            <input type="text" class="form-control" placeholder="Email">
-                        </div>
-                        <div class="col-md-4">
-                            <label></label>
-                            <input type="text" class="form-control" placeholder="Phone">
-                        </div>
-                        <div class="col-md-12">
-                            <label></label>
-                            <textarea class="form-control" rows="9" placeholder="Your message here.."></textarea>
-                        </div>
-                        <div class="col-md-4 col-md-offset-4">
-                            <label></label>
-                            <button type="button" data-toggle="modal" data-target="#alertModal" class="btn btn-primary btn-block btn-lg">Send <i class="ion-android-arrow-forward"></i></button>
-                        </div>
+                    <form name="submit-to-google-sheet" class="contact-form row">
+                        <input name="email" type="email" placeholder="Email" required>
+                        <button type="submit">Send</button>
                     </form>
+                    
+                    <script>
+                        const scriptURL = 'https://script.google.com/macros/s/AKfycbxfhxg6CjdLeiCx6nyuunKHy1b2LzOEQ10IyaCx8umO-BZl-Zfk/exec';
+      
+                        const form = document.forms['submit-to-google-sheet']
+
+                        form.addEventListener('submit', e => {
+                          e.preventDefault()
+                          fetch(scriptURL, {
+                                  method: 'POST',
+                                  mode: 'no-cors',
+                                  body: new FormData(form)
+                              }).then(response => {
+                                    console.log('success', response)
+                                    response.json().then(data => console.log('data', data)
+                                    )
+                             }).catch(error => console.error('Error!', error.message))
+                        })
+                    </script>
+                    
                 </div>
             </div>
         </div>
