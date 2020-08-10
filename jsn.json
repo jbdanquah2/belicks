@@ -1,0 +1,142 @@
+{
+        "Student_Image": null,
+        "School_Generated_Id": null,
+        "Status": "Active",
+        "Admission_Date": null,
+        "Created_By": "googleform@lfm",
+        "Updated_By": "googleform@lfm",
+        "Course_Identifier": null,
+        "Classroom_Identifier": 4712,
+        "Person_Details": {
+            "Frist_Name": "Marl",
+            "Middle_Name": "",
+            "Last_Name": "Duane",
+            "Mobile_Phone_Number_1": "232",
+            "Mobile_Phone_Number_2": "",
+            "Land_Phone_Number": "909",
+            "Email_Address_1": "dfdf@gmail.com",
+            "Email_Address_2": "",
+            "Gender": "Male",
+            "Date_Of_Birth": "09-02-2020"
+        },
+        "Legal_Guardian_Details": [{
+            "Profession": "Trader",
+            "Relationship_Type": "Mother",
+            "Student_Legal_Guardian_Status": "Active",
+            "Person_Details": {
+                "Frist_Name": "dfd",
+                "Middle_Name": "",
+                "Last_Name": "fd",
+                "Mobile_Phone_Number_1": "232",
+                "Mobile_Phone_Number_2": "",
+                "Land_Phone_Number": "909",
+                "Email_Address_1": "dfdf@gmail.com",
+                "Email_Address_2": "",
+                "Gender": "Female",
+                "Date_Of_Birth": "1980-01-01"
+            },
+            "Address": {
+                "Address_Line_1": "fdf",
+                "Address_Line_2": "",
+                "City": "dfd",
+                "Country": "Ghana",
+                "State_Provice_Region": "Greater Accra",
+                "District": "Unknown"
+            }
+        }, {
+            "Profession": "Accountant",
+            "Relationship_Type": "Father",
+            "Student_Legal_Guardian_Status": "Active",
+            "Person_Details": {
+                "Frist_Name": "ewe",
+                "Middle_Name": "",
+                "Last_Name": "gfg",
+                "Mobile_Phone_Number_1": "45",
+                "Mobile_Phone_Number_2": "",
+                "Land_Phone_Number": "909",
+                "Email_Address_1": "gfg@gmail.com",
+                "Email_Address_2": "",
+                "Gender": "Male",
+                "Date_Of_Birth": "1980-01-01"
+            },
+            "Address": {
+                "Address_Line_1": "fdf",
+                "Address_Line_2": "",
+                "City": "dfd",
+                "Country": "Ghana",
+                "State_Provice_Region": "Greater Accra",
+                "District": "Unknown"
+            }
+        }]
+    }
+{
+        "Student_Image": null,
+        "School_Generated_Id": null,
+        "Status": "Active",
+        "Admission_Date": null,
+        "Created_By": "googleform@lfm",
+        "Updated_By": "googleform@lfm",
+        "Course_Identifier": null,
+        "Classroom_Identifier": 4708,
+        "Person_Details": {
+            "Frist_Name": "Malick",
+            "Middle_Name": "Koo",
+            "Last_Name": "Duah",
+            "Mobile_Phone_Number_1": "+2335666",
+            "Mobile_Phone_Number_2": "",
+            "Land_Phone_Number": "909",
+            "Email_Address_1": "kkkj@gmail.com",
+            "Email_Address_2": "",
+            "Gender": "Male",
+            "Date_Of_Birth": "02-02-2020"
+        },
+        "Legal_Guardian_Details": [{
+            "Profession": "Accountant",
+            "Relationship_Type": "Mother",
+            "Student_Legal_Guardian_Status": "Active",
+            "Person_Details": {
+                "Frist_Name": "dfdf",
+                "Middle_Name": "kkjk",
+                "Last_Name": "kjk",
+                "Mobile_Phone_Number_1": "+2335666",
+                "Mobile_Phone_Number_2": "090",
+                "Land_Phone_Number": "909",
+                "Email_Address_1": "kkkj@gmail.com",
+                "Email_Address_2": "lkl",
+                "Gender": "Female",
+                "Date_Of_Birth": "1980-01-01"
+            },
+            "Address": {
+                "Address_Line_1": "khjhjh",
+                "Address_Line_2": "",
+                "City": "jhjhjhjh",
+                "Country": "Ghana",
+                "State_Provice_Region": "Greater Accra",
+                "District": "Unknown"
+            }
+        }, {
+            "Profession": "Painter",
+            "Relationship_Type": "Father",
+            "Student_Legal_Guardian_Status": "Active",
+            "Person_Details": {
+                "Frist_Name": "kjj",
+                "Middle_Name": "kjk",
+                "Last_Name": "kjj",
+                "Mobile_Phone_Number_1": "+236656",
+                "Mobile_Phone_Number_2": "+2363",
+                "Land_Phone_Number": "909",
+                "Email_Address_1": "kjk@gmail.com",
+                "Email_Address_2": "hghg@lkl.com",
+                "Gender": "Male",
+                "Date_Of_Birth": "1980-01-01"
+            },
+            "Address": {
+                "Address_Line_1": "khjhjh",
+                "Address_Line_2": "",
+                "City": "jhjhjhjh",
+                "Country": "Ghana",
+                "State_Provice_Region": "Greater Accra",
+                "District": "Unknown"
+            }
+        }]
+    }

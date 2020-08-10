@@ -27,14 +27,15 @@
             </div>
             <div class="navbar-collapse collapse" id="bs-navbar">
                 <ul id="menu" class="nav navbar-nav">
-                    <li>
-                        <a class="page-scroll" href="#one">Admissions</a> 
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Admissions <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a class="page-scroll" href="#one">Download Admission Form</a></li>
+                            <li><a class="page-scroll" href="admission_guidelines.html">Admission Guidelines</a></li>
+                            <li><a href="#">School Rule and Regulations</a></li>
+                            
+                        </ul>
                     </li>
-<!--
-                    <li>
-                        <a class="page-scroll" href="#two">Highlights</a>
-                    </li>
--->
                     <li>
                         <a class="page-scroll" href="#three">Gallery</a>
                     </li>
@@ -64,7 +65,7 @@
 -->
                 <hr>
 <!--                <a href="#video-background" id="toggleVideo" data-toggle="collapse" class="btn btn-primary btn-xl">Toggle Video</a> &nbsp; -->
-                <a href="tel:+23324-505-2539" class="btn btn-primary btn-xl page-scroll"><i class="icon-sm ion-android-call"></i> Call Us</a>
+                <a href="tel:+23324-465-3986" class="btn btn-primary btn-xl page-scroll"><i class="icon-sm ion-android-call"></i> Call Us</a>
                 <marquee id="news1" class="text-white" behavior="scroll" height="25px" hspace="40px"  scrollamount ="3" >Dear parents, please note that school resumes come September 8th, 2020. Please do well to ensure our children are prepared for that. Thank you for your cooperation!</marquee>
             </div>
         </div>
@@ -288,8 +289,7 @@
                     <p>Foe enquiries kindly fill out the form below and we'll get back to you as soon as possible.</p>
                 </div>
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <form name="submit-to-google-sheet" class="contact-form row">
-                       
+                    <form action=”mailto:yjbdanquah@gmail.com” method=”POST” name=”EmailForm” class="contact-form row">     
                        <div class="col-md-4">
                             <label></label>
                             <input name="name" type="text" class="form-control" placeholder="Name">
@@ -308,10 +308,11 @@
                         </div>
                          <div class="col-md-4 col-md-offset-4">
                             <label></label>
-                            <button name="submit" type="button" data-toggle="modal" data-target="#alertModal" class="btn btn-primary btn-block btn-lg">Send <i class="ion-android-arrow-forward"></i></button>
+                            <button name="submit" type="submit" data-toggle="modal" data-target="#alertModal" class="btn btn-primary btn-block btn-lg">Send <i class="ion-android-arrow-forward"></i></button>
                         </div>
                     </form>
                     
+<!--
                     <script>
                         const scriptURL = 'https://script.google.com/macros/s/AKfycbxfhxg6CjdLeiCx6nyuunKHy1b2LzOEQ10IyaCx8umO-BZl-Zfk/exec';
       
@@ -330,6 +331,7 @@
                              }).catch(error => console.error('Error!', error.message))
                         })
                     </script>
+-->
                     
                 </div>
             </div>
@@ -369,9 +371,9 @@
                 <div class="col-xs-12 col-sm-3 text-right">
                     <h4>Follow</h4>
                     <ul class="list-inline">
-                      <li><a rel="nofollow" href="https://wa.me/+233245052539" title="Twitter"><i class="icon-lg ion-social-twitter-outline"></i></a>&nbsp;</li>
-                      <li><a rel="nofollow" href="https://wa.me/+233245052539" title="Facebook"><i class="icon-lg ion-social-facebook-outline"></i></a>&nbsp;</li> 
-                      <li><a rel="nofollow" href="https://wa.me/+233245052539" title="Dribble"><i class="icon-lg fab fa-whatsapp fa-5x" ></i></a></li>
+                      <li><a rel="nofollow" href="https://wa.me/+233244653986" title="Twitter"><i class="icon-lg ion-social-twitter-outline"></i></a>&nbsp;</li>
+                      <li><a rel="nofollow" href="https://wa.me/+233244653986" title="Facebook"><i class="icon-lg ion-social-facebook-outline"></i></a>&nbsp;</li> 
+                      <li><a rel="nofollow" href="https://wa.me/+233244653986" title="Dribble"><i class="icon-lg fab fa-whatsapp fa-5x" ></i></a></li>
 <!--                      <li><a rel="nofollow" href="https://wa.me/+233245052539" title="Dribble"><i class="icon-lg ion-social-dribbble-outline"></i></a></li>-->
                     </ul>
                 </div>
@@ -398,22 +400,22 @@
         <div class="modal-content">
         	<div class="modal-body">
         		<h2 class="text-center">Belicks Community International School</h2>
-        		<h4 class="text-center">
+        		<h3 class="text-center">
         		    Mission Statement
-        		</h4><hr>
-        		<p class="text-justify">
+        		</h3><hr>
+        		<p class="text-center">
         		    To provide a safe and nurturing environmnet where all children can learn to achieve success.
         		</p>
-        		<h4 class="text-center">
+        		<h3 class="text-center">
         		    Vision Statement
-        		</h4><hr>
-        		<p class="text-justify">
-        		    To e counted among the best institutions that provide quality education to prepare our students to be global citizens.
+        		</h3><hr>
+        		<p class="text-center">
+        		    To be counted among the best institutions that provide quality education to prepare our students to be global citizens.
         		</p>
-        		<h4 class="text-center">
+        		<h3 class="text-center">
         		    Motto
-        		</h4><hr>
-        		<p class="text-justify">
+        		</h3><hr>
+        		<p class="text-center">
         		    Discendo floremus - through learning we flourish!ml
         		</p>
         		<br/>
