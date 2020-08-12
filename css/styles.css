@@ -578,3 +578,8 @@ marquee {
 ul li a, #copyright a {
     color: #aaa;
 }
+
+#guide {
+    background-color: #032f48!important;
+/*    clip-path: polygon(0 0, 97% 3%, 100% 100%, 0% 100%)*/
+}
