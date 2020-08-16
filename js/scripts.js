@@ -1,4 +1,37 @@
- 
+function updateSheet() {
+    let gapi = window.gapi;
+    
+    const formEl = document.forms.EmailForm;  
+    const formData = new FormData(formEl);
+    const name = formData.get('name');
+    const email = formData.get('email');
+    const phone = formData.get('phone');
+    const message = formData.get('message');
+    var values = [
+      [
+        name, email, phone, message
+      ],
+      // Additional rows ...
+    ];
+    
+
+//https://script.google.com/macros/s/AKfycbwL-blgLbwxGOd-ISAwedOy-DkUgtV_ZUZFMHGd/exec
+    
+    
+//    var body = {
+//      values: values
+//    };
+//    gapi.client.sheets.spreadsheets.values.update({
+//       spreadsheetId: '1xfvVmOC4LbKlwW69Vq7C5aBzhuCxMNH0xPKuyS3iSZk',
+//       range: 'Sheet1!A1:D1:append',
+//       valueInputOption: 'USER_ENTERED',
+//       resource: body
+//    }).then((response) => {
+//      var result = response.result;
+//      console.log(`${result.updatedCells} cells updated.`);
+//    });
+}
+
 (function($) {
     "use strict";
 

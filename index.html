@@ -287,49 +287,35 @@
                     <p>Foe enquiries kindly fill out the form below and we'll get back to you as soon as possible.</p>
                 </div>
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <form action=”mailto:yjbdanquah@gmail.com” method=”POST” name=”EmailForm” class="contact-form row">     
+                    <form action="https://script.google.com/macros/s/AKfycbzkl3ZmADjK2i33b_5GLbyG_UqMOv71Wf5U6YlZdF7woO302Ic/exec" id="EmailForm" method=”POST” name=”EmailForm” class="gform contact-form row">   
+                     
                        <div class="col-md-4">
                             <label></label>
-                            <input name="name" type="text" class="form-control" placeholder="Name">
+                            <input id="name" name="name" type="text" class="form-control" placeholder="Name">
                         </div>
                         <div class="col-md-4">
                             <label></label>
-                            <input name="email" type="text" class="form-control" placeholder="Email">
+                            <input id="email" name="email" type="text" class="form-control" placeholder="Email">
                         </div>
                         <div class="col-md-4">
                             <label></label>
-                            <input name="phone" type="text" class="form-control" placeholder="Phone">
+                            <input id="phone" name="phone" type="text" class="form-control" placeholder="Phone">
                         </div>
                         <div class="col-md-12">
                             <label></label>
-                            <textarea name="message" class="form-control" rows="9" placeholder="Your message here.."></textarea>
+                            <textarea id="message" name="message" class="form-control" rows="9" placeholder="Your message here.."></textarea>
                         </div>
                          <div class="col-md-4 col-md-offset-4">
                             <label></label>
-                            <button name="submit" type="submit" data-toggle="modal" data-target="#alertModal" class="btn btn-primary btn-block btn-lg">Send <i class="ion-android-arrow-forward"></i></button>
+                            <button id="submit" type="submit" data-toggle="modal" data-target="#alertModal" class="btn btn-primary btn-block btn-lg">Send <i class="ion-android-arrow-forward"></i></button>
                         </div>
                     </form>
-                    
-<!--
-                    <script>
-                        const scriptURL = 'https://script.google.com/macros/s/AKfycbxfhxg6CjdLeiCx6nyuunKHy1b2LzOEQ10IyaCx8umO-BZl-Zfk/exec';
-      
-                        const form = document.forms['submit-to-google-sheet']
+<!--                    data-toggle="modal" data-target="#alertModal"-->
 
-                        form.addEventListener('submit', e => {
-                          e.preventDefault()
-                          fetch(scriptURL, {
-                                  method: 'POST',
-                                  mode: 'no-cors',
-                                  body: new FormData(form)
-                              }).then(response => {
-                                    console.log('success', response)
-                                    response.json().then(data => console.log('data', data)
-                                    )
-                             }).catch(error => console.error('Error!', error.message))
-                        })
+                    <script>
+                       
                     </script>
--->
+
                     
                 </div>
             </div>
@@ -468,5 +454,7 @@
     <script src="./js/wow.js"></script>
     <script src="./js/all.min.js"></script>
     <script src="./js/scripts.js"></script>
+    <script src="js/form-handler.js"></script>
+
   </body>
 </html>
