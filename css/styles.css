@@ -373,7 +373,12 @@ textarea {
 }
 
 .call-to-action h2 {
-    margin: 0 auto 20px;
+    margin: 0 auto 15px;
+}
+
+#director {
+   margin-top: 8%;
+   margin-bottom: 8%;
 }
 
 .gallery-box {
@@ -542,6 +547,18 @@ img::-moz-selection {
 /*    background-image: url('../assets/svg6.svg');*/
     background-position:top;
    background-color: #0f4364;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    overflow: hidden;
+}
+
+#one1 {
+    clip-path: polygon(61% 4%, 100% 0%, 98% 95%, 0 100%, 0 19%);
+/*    background-image: url('../assets/svg6.svg');*/
+    background-position:top;
+/*   background-color: #0f4364;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
