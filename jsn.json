@@ -1,1 +1,31 @@
-{"Student_Image":null,"School_Generated_Id":null,"Status":"Active","Admission_Date":null,"Created_By":"googleform@lfm","Updated_By":"googleform@lfm","Course_Identifier":null,"Classroom_Identifier":"","Person_Details":{"Frist_Name":"Ivy","Middle_Name":"Hannah","Last_Name":"D Crentsil","Mobile_Phone_Number_1":"+233244849996","Mobile_Phone_Number_2":"","Land_Phone_Number":"909","Email_Address_1":"hanababs@yahoo.co.uk","Email_Address_2":"","Gender":"Female","Date_Of_Birth":"02-09-1995"},"Legal_Guardian_Details":[{"Profession":"Administrative Secretary","Relationship_Type":"Mother","Student_Legal_Guardian_Status":"Active","Person_Details":{"Frist_Name":"Aba","Middle_Name":"Yeboaba","Last_Name":"Crentsil","Mobile_Phone_Number_1":"+233208764014","Mobile_Phone_Number_2":"+233244849996","Land_Phone_Number":"909","Email_Address_1":"hannybaabs@gmail.com","Email_Address_2":"hanababs@yahoo.co.uk","Gender":"Female","Date_Of_Birth":"1980-01-01"},"Address":{"Address_Line_1":"GC-108-4944","Address_Line_2":"","City":"Accra","Country":"Ghana","State_Provice_Region":"Greater Accra","District":"Unknown"}},{"Profession":"Engineer","Relationship_Type":"Father","Student_Legal_Guardian_Status":"Active","Person_Details":{"Frist_Name":"David","Middle_Name":"Kofi","Last_Name":"Crentsil","Mobile_Phone_Number_1":"+233244849996","Mobile_Phone_Number_2":"+233208764014","Land_Phone_Number":"909","Email_Address_1":"hanababs@yahoo.co.uk","Email_Address_2":"hannybaabs@gmail.com","Gender":"Male","Date_Of_Birth":"1980-01-01"},"Address":{"Address_Line_1":"GC-108-4944","Address_Line_2":"","City":"Accra","Country":"Ghana","State_Provice_Region":"Greater Accra","District":"Unknown"}}]}
+lginfo: {
+  Student_Legal_Guardian_Status = Active,
+  Relationship_Type = Mother,
+  Address = {
+    District = Unknown,
+    Address_Line_2 = ,
+    Country = GH,
+    State_Provice_Region = Ghana,
+    Address_Line_1 = P.o.Box,
+    City = Accra
+  },
+  Person_Details = {
+    Last_Name = Sunnu,
+    Mobile_Phone_Number_3 = ,
+    Frist_Name = Mrs Esther Abrefa,
+    Email_Address_3 = ,
+    Mobile_Phone_Number_1 = 2.49308881E8,
+    Date_Of_Birth = Mon Jan 01 08: 00: 00 GMT + 00: 00 1900,
+    Email_Address_2 = ,
+    Mobile_Phone_Number_2 = ,
+    Land_Phone_Number = null,
+    Gender = Female,
+    Email_Address_1 = esther.agboyitor @gmail.com,
+    Middle_Name =
+  },
+  Email_Notification_Allowed = 1.0,
+  Student_Identifier = 60509.0,
+  SMS_Notification_Allowed = 1.0,
+  Profession = Unknown,
+  Created_By = googlesheet
+}

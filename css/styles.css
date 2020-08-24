@@ -558,7 +558,7 @@ img::-moz-selection {
     clip-path: polygon(61% 4%, 100% 0%, 98% 95%, 0 100%, 0 19%);
 /*    background-image: url('../assets/svg6.svg');*/
     background-position:top;
-/*   background-color: #0f4364;*/
+/*     background-color: #fefefe;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -600,3 +600,14 @@ ul li a, #copyright a {
     background-color: #032f48!important;
 /*    clip-path: polygon(0 0, 97% 3%, 100% 100%, 0% 100%)*/
 }
+
+#thankyou_message {
+/*    display: none;*/
+    animation: blinker-two 1.4s linear infinite;
+      }
+      @keyframes blinker-two {
+        0% {
+          opacity: 0;
+        }
+    }
+

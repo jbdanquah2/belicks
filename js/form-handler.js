@@ -74,9 +74,9 @@
           if (formElements) {
             formElements.style.display = "none"; // hide form
           }
-          var thankYouMessage = form.querySelector(".thankyou_message");
+          var thankYouMessage = document.querySelector("#thankyou_message");
           if (thankYouMessage) {
-            thankYouMessage.style.display = "block";
+            thankYouMessage.textContent= 'Message received. We will get back to you soon! Thank you!';
           }
         }
     };
