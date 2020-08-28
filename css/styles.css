@@ -4,6 +4,8 @@ Designed and deployed by gigBits tech
 
 @import url(https://fonts.googleapis.com/css?family=Questrial);
 @import url(http://fonts.googleapis.com/css?family=Dancing+Script:700);
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
 
 html,
 body {
@@ -12,7 +14,7 @@ body {
 }
 
 body {
-    font-family: 'Questrial','Helvetica Neue',sans-serif;
+    font-family: 'Lora', serif;
     background-color:palevioletred;
     color: #d3d3d3;
     webkit-tap-highlight-color: #222;
@@ -44,7 +46,7 @@ a:focus {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
+    font-family: font-family: 'Crete Round',Arial serif;
 }
 
 p {
@@ -221,6 +223,14 @@ footer {
     .navbar-default.affix .nav>li>a:focus:hover {
         color: #9c27b0;
     }
+    
+    #littelKids {
+/*    display: block;*/
+        max-width:100%;
+        max-height:50%;
+        width: auto;
+        height: auto;
+    }
 }
 
 header {
@@ -360,6 +370,18 @@ textarea {
 .feature {
     margin: 50px auto 0;
     max-width: 400px;
+    border: 3px solid #dedede;
+    padding: 5%;
+    border-radius: 3%;
+}
+
+.feature:hover, .feature:focus {
+    opacity: 0.5;
+}
+
+.feature:active {
+    background-color:  #2f5579;!important;
+    opacity: 0.5;
 }
 
 @media(min-width:992px) {
@@ -497,7 +519,8 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn.btn-primary:hover {
-    opacity: 0.7;
+    opacity: 0.5;
+    background-color:  #2f5579;!important;
 }
 
 .btn {
@@ -610,4 +633,30 @@ ul li a, #copyright a {
           opacity: 0;
         }
     }
+
+.deptmt {
+    color: #fefefe;
+    font-family:serif;
+    font-size: 1.3em;
+    width: 70%;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: 1px solid #fffefe;
+    border-radius: 10px;
+}
+
+.deptmt:hover, .deptmt:focus, btn:focus  {
+    background-color:  #2f5579;!important;
+}
+
+#features li {
+    font-family: serif;
+    font-size: 1.2em;
+    padding: 1.5%;
+    
+}
+
+#bel p {
+    z-index: 3 !important;
+}
 
