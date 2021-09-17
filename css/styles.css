@@ -240,7 +240,7 @@ header {
     color: #fff;
     width: 100%;
     background-color: #c9c9c9;
-    background-image: url('../assets/bcis/school_gate.jpeg');
+    background-image: url('https://res.cloudinary.com/dpm2xl67p/image/upload/v1631910090/belicks/school_gate.jpg');
     background-position:center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
