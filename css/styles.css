@@ -223,6 +223,11 @@ footer {
     .navbar-default.affix .nav>li>a:focus:hover {
         color: #9c27b0;
     }
+
+    .img-width {
+        width: 600px!important;
+        height: 450px!important;
+    }
     
     #littelKids {
 /*    display: block;*/
