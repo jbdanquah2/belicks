@@ -17,7 +17,7 @@ body {
     font-family: 'Lora', serif;
     background-color:palevioletred;
     color: #d3d3d3;
-    webkit-tap-highlight-color: #222;
+    /* webkit-tap-highlight-color: #222; */
 }
 
 hr {
@@ -46,7 +46,7 @@ a:focus {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: font-family: 'Crete Round',Arial serif;
+    font-family: 'Crete Round',Arial serif;
 }
 
 p {
@@ -240,7 +240,7 @@ header {
     color: #fff;
     width: 100%;
     background-color: #c9c9c9;
-    background-image: url('../assets/04.jpg');
+    background-image: url('../assets/bcis/school_gate.jpeg');
     background-position:center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -380,7 +380,7 @@ textarea {
 }
 
 .feature:active {
-    background-color:  #2f5579;!important;
+    background-color:  #2f5579!important;
     opacity: 0.5;
 }
 
@@ -520,7 +520,7 @@ fieldset[disabled] .btn-default.active {
 
 .btn.btn-primary:hover {
     opacity: 0.5;
-    background-color:  #2f5579;!important;
+    background-color:  #2f5579!important;
 }
 
 .btn {
@@ -560,10 +560,10 @@ img::-moz-selection {
     border-radius: 50%;
 }
 
-#one, #last {
+/* #one, #last {
     
 
-}
+} */
 
 #one {
     clip-path: polygon(61% 4%, 100% 0%, 98% 95%, 0 100%, 0 19%);
@@ -646,7 +646,7 @@ ul li a, #copyright a {
 }
 
 .deptmt:hover, .deptmt:focus, btn:focus  {
-    background-color:  #2f5579;!important;
+    background-color:  #2f5579!important;
 }
 
 #features li {
