@@ -46,7 +46,10 @@ function updateSheet() {
         $('.navbar-toggle:visible').click();
     });
 
+
+
     $('#galleryModal').on('show.bs.modal', function (e) {
+        console.log('here were are')
        $('#galleryImage').attr("src",$(e.relatedTarget).data("src"));
     });
 
